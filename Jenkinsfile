@@ -21,7 +21,7 @@ pipeline {
   }
   post {
     success {
-        build quietPeriod: 0, wait: false, job: 'yaser-4'  
+        build quietPeriod: 0, wait: false, job: 'yaser-t'  
     }
   }
 }
